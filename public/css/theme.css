@@ -1,0 +1,183 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+h1{
+    margin: 0;
+}
+
+body{
+    font-family: "Roboto", "sans-serif";
+    font-size: 12px;
+}
+
+.burger-menu{
+    text-align: center;
+}
+
+.burger-menu i{
+    padding: 8px;
+    background-color: #1259c3;
+    color: #ebebeb;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 8px;
+    font-size: 24px;
+}
+
+.font-white{
+    color: white;
+}
+
+.font-yellow{
+    color: #EAC926;
+}
+
+.bg-yellow{
+    background-color: #EAC926;
+}
+
+.font-blue{
+    color: #03264C;
+}
+
+.bg-blue{
+    background-color: #03264C;
+}
+
+.font-lightblue{
+    color: #1259c3;
+}
+
+.bg-lightblue{
+    background-color: #1259c3;
+}
+
+.font-darkgrey{
+    color: #666;
+}
+
+.bg-darkgrey{
+    background-color: #666;
+}
+
+.font-grey{
+    color: #ebebeb;
+}
+
+.bg-grey{
+    background-color: #ebebeb;
+}
+
+.font-green{
+    color: #39b54a;
+}
+
+.bg-green{
+    background-color: #39b54a;
+}
+
+.font-heading{
+    font-size: 24px;
+}
+
+.font-large{
+    font-size: 18px;
+}
+
+.font-medium{
+    font-size: 16px;
+}
+
+.left{
+    text-align: left;
+    margin: 0;
+}
+
+.center{
+    text-align: center;
+}
+
+.center-icon{
+    text-align: center;
+    font-size: 25px;
+    color: #03264C;
+}
+
+.margin{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+.nav-section{
+    padding: 0;
+}
+
+article {margin: 10px; box-sizing: border-box; padding: 10px;}
+
+.esquinas_redondeadas {
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+    border: 1px solid #39b54a;
+    border-radius: 50%;
+    display: block;
+    background-color: #FFF;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+}
+
+.product{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+.precio{
+    width: 30%;
+}
+
+.descuento{
+    width: 70%;
+}
+
+.articulos{
+    display: flex;
+    flex-wrap: wrap;
+    border-top: #ebebeb;
+    background-color: white;
+    padding: 15px;
+    border-top-width: 1px;
+    border-top-style: solid;
+}
+
+.fx {
+    display: flex;
+  }
+   
+.fx-wrap {
+    flex-wrap: wrap;
+  }
+   
+.fx-aligncenter {
+    align-items: center;
+  }
+   
+.fx-grow-100 {
+    flex-grow: 1;
+  }
+   
+.fx-grow-70 {
+    flex-grow: 0.7;
+  }
+.fx-grow-30 {
+    flex-grow: 0.3;
+  }
+   
+.fx-space-between {
+    justify-content: space-between;
+  }

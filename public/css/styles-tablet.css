@@ -1,0 +1,17 @@
+@media(min-width: 481px) {
+    .tablet-hide{
+        display: none;
+    }
+    .tablet-fx{
+        display: flex;
+    }
+    .w-tablet-50{
+        width: 50%;
+    }
+    .w-tablet-70{
+        width: 70%;
+    }
+    .w-tablet-33{
+        width: 33%;
+    }
+}

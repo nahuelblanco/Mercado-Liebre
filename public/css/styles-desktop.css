@@ -1,0 +1,44 @@
+@media(min-width: 769px){
+    .product-title{
+        display: none;
+    } 
+    .product:hover .product-title{
+        display: block;
+    }
+    .product{
+        box-shadow: none;
+    }
+    .button:hover {
+        background-color: #0022AA;
+    }
+    .product:hover{
+        box-shadow: 0px 0px 10px rgb(100,100,100);
+    }
+    .rotation:hover{
+        transform: rotate(-90deg);
+        transition: 1s;
+    }
+    .footer-hor{
+        display: flex;
+        flex-wrap: nowrap;
+        box-sizing: border-box;
+        flex: content;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+        padding: 5px;
+    }
+    .footer-cop{
+        display: flex;
+        flex-wrap: nowrap;
+        box-sizing: border-box;
+        flex: content;
+        flex-direction: row;
+        justify-content: left;
+        align-items: center;
+        margin-bottom: 20px;
+        padding: 5px;
+    }
+}
+

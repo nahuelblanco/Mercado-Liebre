@@ -1,0 +1,14 @@
+.bg-register{
+    background-color: rgb(206, 202, 202);
+}
+
+.label-width{
+    width: 100%;
+}
+
+.font{
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: "Roboto", "sans-serif";
+}
